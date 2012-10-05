@@ -1295,7 +1295,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {950, 600}}</string>
+				<string key="NSWindowRect">{{335, 202}, {600, 400}}</string>
 				<int key="NSWTFlags">1954022400</int>
 				<string key="NSWindowTitle">DHCustomWindow</string>
 				<string key="NSWindowClass">DHCustomWindow</string>
@@ -1310,7 +1310,7 @@
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">274</int>
 							<array class="NSMutableArray" key="NSSubviews"/>
-							<string key="NSFrameSize">{950, 600}</string>
+							<string key="NSFrameSize">{600, 400}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="672222543"/>
@@ -1341,7 +1341,7 @@
 										<string>public.url</string>
 										<string>public.url-name</string>
 									</set>
-									<string key="NSFrameSize">{938, 588}</string>
+									<string key="NSFrameSize">{588, 388}</string>
 									<reference key="NSSuperview" ref="672222543"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView"/>
@@ -1360,7 +1360,7 @@
 									<bool key="AllowsUndo">YES</bool>
 								</object>
 							</array>
-							<string key="NSFrame">{{6, 6}, {938, 588}}</string>
+							<string key="NSFrame">{{6, 6}, {588, 388}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="80332140"/>
@@ -1368,7 +1368,7 @@
 							<string key="NSClassName">NSView</string>
 						</object>
 					</array>
-					<string key="NSFrameSize">{950, 600}</string>
+					<string key="NSFrameSize">{600, 400}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="599661865"/>
