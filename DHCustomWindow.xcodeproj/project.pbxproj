@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43E63DE0161F12CD008BEEA1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E63DDF161F12CD008BEEA1 /* Cocoa.framework */; };
+		43E63DEA161F12CD008BEEA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43E63DE8161F12CD008BEEA1 /* InfoPlist.strings */; };
+		43E63DEC161F12CD008BEEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E63DEB161F12CD008BEEA1 /* main.m */; };
+		43E63DF0161F12CD008BEEA1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 43E63DEE161F12CD008BEEA1 /* Credits.rtf */; };
+		43E63DF3161F12CD008BEEA1 /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E63DF2161F12CD008BEEA1 /* DHAppDelegate.m */; };
+		43E63DF6161F12CD008BEEA1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43E63DF4161F12CD008BEEA1 /* MainMenu.xib */; };
+		43E63E02161F12E7008BEEA1 /* DHCustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E63E01161F12E7008BEEA1 /* DHCustomWindow.m */; };
+		43E63E0B161F16A2008BEEA1 /* DHCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E63E0A161F16A2008BEEA1 /* DHCustomView.m */; };
+		43E63E1E161F229E008BEEA1 /* DHBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E63E1D161F229E008BEEA1 /* DHBackgroundView.m */; };
+		43E63E27161F3DEE008BEEA1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E63E26161F3DEE008BEEA1 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43E63DDB161F12CD008BEEA1 /* DHCustomWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHCustomWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E63DDF161F12CD008BEEA1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		43E63DE2161F12CD008BEEA1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		43E63DE3161F12CD008BEEA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		43E63DE4161F12CD008BEEA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43E63DE7161F12CD008BEEA1 /* DHCustomWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DHCustomWindow-Info.plist"; sourceTree = "<group>"; };
+		43E63DE9161F12CD008BEEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43E63DEB161F12CD008BEEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43E63DED161F12CD008BEEA1 /* DHCustomWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DHCustomWindow-Prefix.pch"; sourceTree = "<group>"; };
+		43E63DEF161F12CD008BEEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		43E63DF1161F12CD008BEEA1 /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		43E63DF2161F12CD008BEEA1 /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
+		43E63DF5161F12CD008BEEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		43E63E00161F12E7008BEEA1 /* DHCustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCustomWindow.h; sourceTree = "<group>"; };
+		43E63E01161F12E7008BEEA1 /* DHCustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCustomWindow.m; sourceTree = "<group>"; };
+		43E63E09161F16A2008BEEA1 /* DHCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCustomView.h; sourceTree = "<group>"; };
+		43E63E0A161F16A2008BEEA1 /* DHCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCustomView.m; sourceTree = "<group>"; };
+		43E63E1C161F229D008BEEA1 /* DHBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBackgroundView.h; sourceTree = "<group>"; };
+		43E63E1D161F229E008BEEA1 /* DHBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBackgroundView.m; sourceTree = "<group>"; };
+		43E63E26161F3DEE008BEEA1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43E63DD8161F12CD008BEEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E63E27161F3DEE008BEEA1 /* WebKit.framework in Frameworks */,
+				43E63DE0161F12CD008BEEA1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43E63DD0161F12CD008BEEA1 = {
+			isa = PBXGroup;
+			children = (
+				43E63DE5161F12CD008BEEA1 /* DHCustomWindow */,
+				43E63DDE161F12CD008BEEA1 /* Frameworks */,
+				43E63DDC161F12CD008BEEA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43E63DDC161F12CD008BEEA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E63DDB161F12CD008BEEA1 /* DHCustomWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E63DDE161F12CD008BEEA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43E63E26161F3DEE008BEEA1 /* WebKit.framework */,
+				43E63DDF161F12CD008BEEA1 /* Cocoa.framework */,
+				43E63DE1161F12CD008BEEA1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43E63DE1161F12CD008BEEA1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43E63DE2161F12CD008BEEA1 /* AppKit.framework */,
+				43E63DE3161F12CD008BEEA1 /* CoreData.framework */,
+				43E63DE4161F12CD008BEEA1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		43E63DE5161F12CD008BEEA1 /* DHCustomWindow */ = {
+			isa = PBXGroup;
+			children = (
+				43E63E18161F1D02008BEEA1 /* DHCustomWindow */,
+				43E63DF1161F12CD008BEEA1 /* DHAppDelegate.h */,
+				43E63DF2161F12CD008BEEA1 /* DHAppDelegate.m */,
+				43E63E1C161F229D008BEEA1 /* DHBackgroundView.h */,
+				43E63E1D161F229E008BEEA1 /* DHBackgroundView.m */,
+				43E63DF4161F12CD008BEEA1 /* MainMenu.xib */,
+				43E63DE6161F12CD008BEEA1 /* Supporting Files */,
+			);
+			path = DHCustomWindow;
+			sourceTree = "<group>";
+		};
+		43E63DE6161F12CD008BEEA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43E63DE7161F12CD008BEEA1 /* DHCustomWindow-Info.plist */,
+				43E63DE8161F12CD008BEEA1 /* InfoPlist.strings */,
+				43E63DEB161F12CD008BEEA1 /* main.m */,
+				43E63DED161F12CD008BEEA1 /* DHCustomWindow-Prefix.pch */,
+				43E63DEE161F12CD008BEEA1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43E63E18161F1D02008BEEA1 /* DHCustomWindow */ = {
+			isa = PBXGroup;
+			children = (
+				43E63E00161F12E7008BEEA1 /* DHCustomWindow.h */,
+				43E63E01161F12E7008BEEA1 /* DHCustomWindow.m */,
+				43E63E09161F16A2008BEEA1 /* DHCustomView.h */,
+				43E63E0A161F16A2008BEEA1 /* DHCustomView.m */,
+			);
+			name = DHCustomWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43E63DDA161F12CD008BEEA1 /* DHCustomWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E63DF9161F12CD008BEEA1 /* Build configuration list for PBXNativeTarget "DHCustomWindow" */;
+			buildPhases = (
+				43E63DD7161F12CD008BEEA1 /* Sources */,
+				43E63DD8161F12CD008BEEA1 /* Frameworks */,
+				43E63DD9161F12CD008BEEA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHCustomWindow;
+			productName = DHCustomWindow;
+			productReference = 43E63DDB161F12CD008BEEA1 /* DHCustomWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E63DD2161F12CD008BEEA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DH;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Bogdan Popescu";
+			};
+			buildConfigurationList = 43E63DD5161F12CD008BEEA1 /* Build configuration list for PBXProject "DHCustomWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43E63DD0161F12CD008BEEA1;
+			productRefGroup = 43E63DDC161F12CD008BEEA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E63DDA161F12CD008BEEA1 /* DHCustomWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43E63DD9161F12CD008BEEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E63DEA161F12CD008BEEA1 /* InfoPlist.strings in Resources */,
+				43E63DF0161F12CD008BEEA1 /* Credits.rtf in Resources */,
+				43E63DF6161F12CD008BEEA1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E63DD7161F12CD008BEEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E63DEC161F12CD008BEEA1 /* main.m in Sources */,
+				43E63DF3161F12CD008BEEA1 /* DHAppDelegate.m in Sources */,
+				43E63E02161F12E7008BEEA1 /* DHCustomWindow.m in Sources */,
+				43E63E0B161F16A2008BEEA1 /* DHCustomView.m in Sources */,
+				43E63E1E161F229E008BEEA1 /* DHBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43E63DE8161F12CD008BEEA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E63DE9161F12CD008BEEA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43E63DEE161F12CD008BEEA1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E63DEF161F12CD008BEEA1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		43E63DF4161F12CD008BEEA1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E63DF5161F12CD008BEEA1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43E63DF7161F12CD008BEEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43E63DF8161F12CD008BEEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43E63DFA161F12CD008BEEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCustomWindow/DHCustomWindow-Prefix.pch";
+				INFOPLIST_FILE = "DHCustomWindow/DHCustomWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43E63DFB161F12CD008BEEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCustomWindow/DHCustomWindow-Prefix.pch";
+				INFOPLIST_FILE = "DHCustomWindow/DHCustomWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E63DD5161F12CD008BEEA1 /* Build configuration list for PBXProject "DHCustomWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E63DF7161F12CD008BEEA1 /* Debug */,
+				43E63DF8161F12CD008BEEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E63DF9161F12CD008BEEA1 /* Build configuration list for PBXNativeTarget "DHCustomWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E63DFA161F12CD008BEEA1 /* Debug */,
+				43E63DFB161F12CD008BEEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E63DD2161F12CD008BEEA1 /* Project object */;
+}
